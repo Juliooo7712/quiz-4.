@@ -1,0 +1,8 @@
+version = 0.1
+
+[default.deploy.parameters]
+stack_name = "sam-codespace-stack"
+s3_bucket = "sam-artifacts-julian-047719650114"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = false

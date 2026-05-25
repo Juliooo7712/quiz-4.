@@ -2,13 +2,9 @@ version = 0.1
 
 [default.deploy.parameters]
 stack_name = "sam-codespace-stack"
-s3_bucket = "sam-artifacts-julian-047719650114"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
 resolve_s3 = true
 s3_prefix = "sam-codespace-stack"
 image_repositories = []
-
-[default.global.parameters]
-region = "us-east-1"
